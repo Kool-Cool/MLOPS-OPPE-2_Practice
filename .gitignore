@@ -2,3 +2,14 @@
 src/data_orig/*.csv
 src/orig_data/*.csv
 /data
+
+
+
+# MLflow runtime files
+mlflow.db
+artifacts/
+
+# Python virtual environment
+.venv/
+__pycache__/
+*.pyc
