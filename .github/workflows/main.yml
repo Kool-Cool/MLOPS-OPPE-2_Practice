@@ -46,8 +46,9 @@ jobs:
          
           echo "Authenticating with GCP..."
           gcloud auth activate-service-account --key-file=gcp-key.json
-          gcloud config set project mlopsweek1
-         
+       
+          gcloud config set project folkloric-alpha-474101-q9  
+       
           echo "Running DVC pull in same session..."
           source .venv/bin/activate
          
