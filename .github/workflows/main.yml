@@ -63,7 +63,8 @@ jobs:
           source .venv/bin/activate
           cd feature_repo
           feast apply
-          python materialize.py
+          # python materialize.py
+          feast materialize-incremental $(date +%Y-%m-%d)
           cd ..
 
       # --- PRE-TRAINING VALIDATION GATES ---
