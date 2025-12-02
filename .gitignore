@@ -13,3 +13,4 @@ artifacts/
 .venv/
 __pycache__/
 *.pyc
+gcp-key.json
