@@ -1,7 +1,7 @@
 [core]
     remote = gcsremote
-['remote "gcs_remote"']
-    url = gs://instance-20251130-103503-bucket
+
 ['remote "gcsremote"']
     url = gs://instance-20251130-103503-bucket/dvcstore
-    gcloud = true
+    credentialpath = ./gcp-key.json
+
