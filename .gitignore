@@ -2,7 +2,7 @@
 src/data_orig/*.csv
 src/orig_data/*.csv
 /data
-
+feature_repo/data
 
 
 # MLflow runtime files
