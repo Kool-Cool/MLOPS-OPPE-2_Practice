@@ -3,5 +3,3 @@
 
 ['remote "gcsremote"']
     url = gs://instance-20251130-103503-bucket/dvcstore
-    credentialpath = ./gcp-key.json
-
